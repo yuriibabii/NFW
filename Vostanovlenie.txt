@@ -1,0 +1,43 @@
+
+//Pl1
+ Pl1.X:=Random(871)+1;
+ Pl1.Y:=Random(657);
+ Pl1.Kut:=0;
+ Pl1.prorisovka:=True;
+ Pl1.kordon:=True;
+ Pl1.popadanie:=0;
+ Pl1.FIMG.Assign(Pl1.Sam);
+ Pl1.logkV:=True;
+ Pl1.zadpad:=0;
+ Pl1.speed:=4;
+ Pl1.padinya:=False;
+ Pl1.zadtorm:=0;
+ Pl1.zadVzruva:=0;
+ Pl1.animVzruva:=1;
+ Pl1.prorisovkaVzruva:=False;
+ Pl1.padU:=False;
+ Pl1.animdum:=1;
+ Pl1.animfire:=1;
+ Pl1.height:=Pl1.Y+110;
+//Pl1
+
+//Hero1
+ Hero1.X:=Pl1.X+64;
+ Hero1.Y:=Pl1.Y+105;
+ Hero1.prorisovka:=False;
+ Hero1.povorot:=2;
+ Hero1.Fly:=False;
+ Hero1.anim:=1;
+ Hero1.PL:=False;
+ Hero1.PR:=False;
+ Hero1.zadanim:=0;
+ Hero1.Death:=False;
+ Hero1.SpiritAlpha:=10;
+ Hero1.logSp:=False;
+ Hero1.touch:=0;
+ Hero1.SPprorisovka:=True;
+ Hero1.height:=0;
+ Hero1.LogP:=False;
+//Hero1
+
+

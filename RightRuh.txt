@@ -1,0 +1,125 @@
+IF (Bullet1.Kut>=-359) and (Bullet1.Kut<=-345) then
+  begin
+   Bullet1.X:=Bullet1.X+speed;
+   Bullet1.Y:=Bullet1.Y-(speed div 3);
+  end;
+
+  IF (Bullet1.Kut>-345) and (Bullet1.Kut<=-330) then
+  begin
+   Bullet1.X:=Bullet1.X+speed;
+   Bullet1.Y:=Bullet1.Y-(speed div 2);
+  end;
+
+  IF (Bullet1.Kut>-330) and (Bullet1.Kut<=-300) then
+  begin
+   Bullet1.X:=Bullet1.X+speed;
+   Bullet1.Y:=Bullet1.Y-speed;
+  end;
+
+  IF (Bullet1.Kut>-300) and (Bullet1.Kut<=-285) then
+  begin
+   Bullet1.Y:=Bullet1.Y-speed;
+   Bullet1.X:=Bullet1.X+(speed div 2);
+  end;
+
+  IF (Bullet1.Kut>-285) and (Bullet1.Kut<-270) then
+  begin
+   Bullet1.Y:=Bullet1.Y-speed;
+   Bullet1.X:=Bullet1.X+(speed div 3);
+  end;
+
+  IF Bullet1.Kut=-270 then Bullet1.Y:=Bullet1.Y-speed;
+
+   IF (Bullet1.Kut>-270) and (Bullet1.Kut<=-255) then
+  begin
+   Bullet1.X:=Bullet1.X-(speed div 3);
+   Bullet1.Y:=Bullet1.Y-speed;
+  end;
+
+    IF (Bullet1.Kut>-255) and (Bullet1.Kut<=-240) then
+  begin
+   Bullet1.X:=Bullet1.X-(speed div 2);
+   Bullet1.Y:=Bullet1.Y-speed;
+  end;
+
+   IF (Bullet1.Kut>-240) and (Bullet1.Kut<=-210) then
+  begin
+   Bullet1.X:=Bullet1.X-speed;
+   Bullet1.Y:=Bullet1.Y-speed;
+  end;
+
+   IF (Bullet1.Kut>-210) and (Bullet1.Kut<=-195) then
+  begin
+   Bullet1.X:=Bullet1.X-speed;
+   Bullet1.Y:=Bullet1.Y-(speed div 2);
+  end;
+
+  IF (Bullet1.Kut>-195) and (Bullet1.Kut<-180) then
+  begin
+   Bullet1.X:=Bullet1.X-speed;
+   Bullet1.Y:=Bullet1.Y-(speed div 3);
+  end;
+
+  IF Bullet1.Kut=-180 then Bullet1.X:=Bullet1.X-speed;
+
+  IF (Bullet1.Kut>-180) and (Bullet1.Kut<=-165) then
+  begin
+   Bullet1.X:=Bullet1.X-speed;
+   Bullet1.Y:=Bullet1.Y+(speed div 3);
+  end;
+
+   IF (Bullet1.Kut>-165) and (Bullet1.Kut<=-150) then
+  begin
+   Bullet1.X:=Bullet1.X-speed;
+   Bullet1.Y:=Bullet1.Y+(speed div 2);
+  end;
+
+   IF (Bullet1.Kut>-150) and (Bullet1.Kut<=-120) then
+  begin
+   Bullet1.X:=Bullet1.X-speed;
+   Bullet1.Y:=Bullet1.Y+speed;
+  end;
+
+   IF (Bullet1.Kut>-120) and (Bullet1.Kut<=-105) then
+  begin
+   Bullet1.X:=Bullet1.X-(speed div 2);
+   Bullet1.Y:=Bullet1.Y+speed;
+  end;
+
+  IF (Bullet1.Kut>-105) and (Bullet1.Kut<-90) then
+  begin
+   Bullet1.X:=Bullet1.X-(speed div 3);
+   Bullet1.Y:=Bullet1.Y+speed;
+  end;
+
+  IF Bullet1.Kut=-90 then Bullet1.Y:=Bullet1.Y+speed;
+
+  IF (Bullet1.Kut>-90) and (Bullet1.Kut<=-75) then
+  begin
+   Bullet1.X:=Bullet1.X+(speed div 3);
+   Bullet1.Y:=Bullet1.Y+speed;
+  end;
+
+  IF (Bullet1.Kut>-75) and (Bullet1.Kut<=-60) then
+  begin
+   Bullet1.X:=Bullet1.X+(speed div 2);
+   Bullet1.Y:=Bullet1.Y+speed;
+  end;
+
+  IF (Bullet1.Kut>-60) and (Bullet1.Kut<=-30) then
+  begin
+   Bullet1.X:=Bullet1.X+speed;
+   Bullet1.Y:=Bullet1.Y+speed;
+  end;
+
+  IF (Bullet1.Kut>-30) and (Bullet1.Kut<=-15) then
+  begin
+   Bullet1.X:=Bullet1.X+speed;
+   Bullet1.Y:=Bullet1.Y+(speed div 2);
+  end;
+
+  IF (Bullet1.Kut>-15) and (Bullet1.Kut<0) then
+  begin
+   Bullet1.X:=Bullet1.X+speed;
+   Bullet1.Y:=Bullet1.Y+(speed div 3);
+  end;
